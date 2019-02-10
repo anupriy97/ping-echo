@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'roboto';
+}
+
+.appHeader {
+  flex: 1;
+  font-size: 400%;
+  color: white;
+  background-color: #775577;
+}
+
+.topHalf {
+  display: flex;
+  flex: 6;
+  background-color: whitesmoke;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.bottomHalf {
+  display: flex;
+  flex: 2;
+  background-color: #407593;
+  flex-direction: row;
+  font-size: 150%;
+  align-items: center;
+}
+
+.bottomHalfInner {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.num {
+  flex: 1;
+  font-size: 200%;
+}
+
+.leftRightHalf {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.status {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 4em;
+  justify-content: center;
+}
+
+.box {
+  flex: 6;
+}
+
+.label {
+  flex: 1;
+  padding: 1em;
+  font-size: 150%;
+}
