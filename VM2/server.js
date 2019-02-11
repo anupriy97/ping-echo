@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/api/getRandom', (req, res) => {
-	let num = Math.floor((Math.random() * 20) + 1);
+	let num = Math.floor((Math.random() * 31) + 50);
 	res.send({
 		num: num,
 	});
